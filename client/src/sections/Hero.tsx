@@ -1,6 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
@@ -133,7 +133,7 @@ export function Hero() {
                   <p className="text-sm font-bold font-display">
                     Lead Developer
                   </p>
-                  <p className="text-xs text-muted-foreground">5+ Years Exp</p>
+                  <p className="text-xs text-muted-foreground">2+ Years Exp</p>
                 </div>
               </motion.div>
             </div>

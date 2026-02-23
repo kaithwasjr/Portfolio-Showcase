@@ -37,11 +37,16 @@ export function Navbar() {
           }`}
         >
           {/* Logo */}
-          <a href="#" className="text-xl font-bold font-display tracking-tight group flex items-center gap-2">
+          <a
+            href="#"
+            className="text-xl font-bold font-display tracking-tight group flex items-center gap-2"
+          >
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground group-hover:rotate-12 transition-transform duration-300">
               A
             </div>
-            <span>Amit<span className="text-primary">.</span></span>
+            <span>
+              Amit<span className="text-primary">.</span>
+            </span>
           </a>
 
           {/* Desktop Nav */}
@@ -65,11 +70,19 @@ export function Navbar() {
                 className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors"
                 aria-label="Toggle theme"
               >
-                {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                {theme === "dark" ? (
+                  <Sun className="w-5 h-5" />
+                ) : (
+                  <Moon className="w-5 h-5" />
+                )}
               </button>
-              
+
               <Button asChild variant="default" className="rounded-full px-6">
-                <a href="/resume.pdf" download="Amit_Kaithwas_Resume.pdf">
+                <a
+                  href="/resume.pdf"
+                  download="Amit_Kaithwas_Resume.pdf"
+                  className="flex"
+                >
                   Resume <Download className="w-4 h-4 ml-2" />
                 </a>
               </Button>
@@ -82,13 +95,21 @@ export function Navbar() {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
             >
-              {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+              {theme === "dark" ? (
+                <Sun className="w-5 h-5" />
+              ) : (
+                <Moon className="w-5 h-5" />
+              )}
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="w-10 h-10 flex items-center justify-center"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </nav>
@@ -114,8 +135,16 @@ export function Navbar() {
               </a>
             ))}
             <div className="pt-4 border-t border-border mt-2">
-              <Button asChild variant="default" className="w-full justify-center">
-                <a href="/resume.pdf" download="Amit_Kaithwas_Resume.pdf">
+              <Button
+                asChild
+                variant="default"
+                className="w-full justify-center"
+              >
+                <a
+                  href="/resume.pdf"
+                  download="Amit_Kaithwas_Resume.pdf"
+                  className="flex"
+                >
                   Download Resume <Download className="w-4 h-4 ml-2" />
                 </a>
               </Button>

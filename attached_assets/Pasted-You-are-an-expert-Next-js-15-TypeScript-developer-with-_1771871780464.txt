@@ -1,0 +1,74 @@
+You are an expert Next.js 15 + TypeScript developer with perfect taste in UI/UX. Build a complete, production-ready, fully responsive personal portfolio website that matches **exactly** the visual style, layout, typography, animations, and interactions of this Figma file:
+
+https://www.figma.com/design/GEAFJNn79mTjpgNR98nDwq/Portfolio---Tomasz-Gajda--Community-?node-id=0-1&p=f&t=5Axn8sDc60VMEKGE-0
+
+(Reference the live demo for behavior: https://tomasz-gajda.netlify.app/ if needed)
+
+Tech stack to use:
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion (for all scroll reveals, hover effects, modal, theme transition)
+- lucide-react icons
+- next/image + next/link
+- shadcn/ui components where helpful (or pure Tailwind)
+- React Hook Form + Zod for contact form
+- Dark/Light mode toggle with next-themes (persist with localStorage)
+- Fully responsive (mobile menu with hamburger, same breakpoints as Figma)
+- SEO-friendly (metadata, Open Graph)
+- Fast & clean code with proper folder structure
+
+Exact design requirements:
+- Split hero section (left light panel with text + social icons, right dark panel with large professional photo)
+- Sticky navbar with logo, links (About, Skills, Projects, Contact), theme toggle, "Hire Me" or "Contact" button
+- Smooth scroll navigation
+- Elegant typography (use Inter or similar sans-serif, perfect headings, line heights)
+- Hover animations, magnetic buttons, scroll-triggered reveals (use Framer Motion variants)
+- Project cards with beautiful images, tech tags, "View Case Study" that opens a detailed modal
+- Skills section with icon grid or animated bars
+- Contact section with form that shows success toast
+- Footer with copyright and social links
+
+Personal content to use:
+
+Name: [YOUR FULL NAME e.g. Amit Sharma]
+Headline / Title: [e.g. Full Stack Developer | MERN Stack Specialist | Event Management Systems]
+About Me section: [Paste your 3-5 sentence bio here]
+
+Skills: [Paste your categorized skills list, e.g.
+Frontend: React 18, Redux Toolkit, Tailwind, MUI...
+Backend: Node.js, Express, NestJS...
+ etc.]
+
+Featured Projects:
+Main project — "Eventomania — Event Management System"
+Use the full description below for the project card + detailed modal view:
+
+🎉 Eventomania — Event Management System
+[PASTE THE ENTIRE PROJECT DESCRIPTION YOU PROVIDED — from "Project Overview" to the end "Use Case / Domain"]
+
+Add 2–3 more placeholder projects (or replace with my other real projects if I provide them). Each project card must have:
+- Eye-catching image
+- Title
+- Short one-line description
+- Tech stack tags
+- Live demo & GitHub buttons
+- "View Details" → opens beautiful modal with full description, key features list, architecture diagram placeholder, screenshots
+
+Resume:
+Add a prominent "Download Resume" button in Hero and Navbar that downloads my resume (use a public URL or /resume.pdf placeholder — I will replace the file later).
+
+Contact:
+Working email, phone (optional), social links (GitHub, LinkedIn, Twitter/X if any).
+
+Additional requirements:
+- Beautiful, professional, modern aesthetic — exactly like Tomasz Gajda’s template (elegant, minimal, high-end developer feel)
+- Excellent mobile experience (hamburger menu, stacked sections)
+- Performance: lazy loading, optimized images, no layout shift
+- Accessibility: proper aria labels, focus states
+- Deploy-ready: include README with "npm run dev" and Vercel deployment instructions
+- Output the full project as a complete folder structure with all file contents using proper code blocks.
+
+Start building the entire project now. First output the folder structure, then generate every file one by one.
+
+i have attahed my resume for all my details reed properly

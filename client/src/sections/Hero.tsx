@@ -110,7 +110,7 @@ export function Hero() {
               {/* Main Image Container */}
               <div className="absolute inset-0 rounded-[2rem] overflow-hidden border border-border bg-muted shadow-2xl">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D5603AQGwcrToXEYhBw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720033045947?e=1773273600&v=beta&t=MsAxZAsMmMm7O5bphWvamGFiBZJ_bOwkKta5z9BFM2k"
+                  src="https://raw.githubusercontent.com/kaithwasjr/Portfolio-Showcase/refs/heads/main/client/src/sections/Profile_Img.jfif"
                   alt="Amit Kaithwas"
                   className="w-full h-full object-cover filter contrast-[1.05] hover:scale-105 transition-transform duration-700 ease-out"
                 />

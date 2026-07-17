@@ -8,6 +8,15 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
+  app.get(api.contact.list.path, async (_req, res) => {
+    try {
+      const messages = await storage.listMessages();
+      res.status(200).json(messages);
+    } catch (err) {
+      res.status(500).json({ message: "Internal server error" });
+    }
+  });
+
   app.post(api.contact.create.path, async (req, res) => {
     try {
       const input = api.contact.create.input.parse(req.body);

@@ -9,9 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="flex flex-col items-center md:items-start">
             <a href="#" className="text-2xl font-bold font-display tracking-tight flex items-center gap-2 mb-2">
-              <div className="w-6 h-6 rounded bg-primary flex items-center justify-center text-primary-foreground text-xs">
-                A
-              </div>
+              <img
+                src="/favicon.svg"
+                alt="Amit Kaithwas logo"
+                className="w-6 h-6 rounded object-cover"
+              />
               <span>Amit.</span>
             </a>
             <p className="text-muted-foreground text-sm text-center md:text-left max-w-xs">

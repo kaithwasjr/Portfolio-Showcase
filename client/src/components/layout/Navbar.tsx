@@ -41,9 +41,11 @@ export function Navbar() {
             href="#"
             className="text-xl font-bold font-display tracking-tight group flex items-center gap-2"
           >
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground group-hover:rotate-12 transition-transform duration-300">
-              A
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Amit Kaithwas logo"
+              className="w-8 h-8 rounded-lg object-cover group-hover:rotate-12 transition-transform duration-300"
+            />
             <span>
               Amit<span className="text-primary">.</span>
             </span>

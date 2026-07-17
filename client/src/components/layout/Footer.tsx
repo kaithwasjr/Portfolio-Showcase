@@ -20,13 +20,13 @@ export function Footer() {
           </div>
 
           <div className="flex justify-center gap-6">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
+            <a href="https://github.com/kaithwasjr" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
+            <a href="https://www.linkedin.com/in/kaithwasjr" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="mailto:contact@example.com" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
+            <a href="mailto:kaithwasjr@gmail.com" className="w-10 h-10 rounded-full bg-accent/50 flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:-translate-y-1 transition-all duration-300">
               <Mail className="w-5 h-5" />
             </a>
           </div>

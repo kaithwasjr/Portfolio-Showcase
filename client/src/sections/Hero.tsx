@@ -28,7 +28,7 @@ export function Hero() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold font-display leading-[1.1] mb-6 text-balance">
               Hi, I'm{" "}
               <span className="text-primary relative inline-block">
-                Amit
+                Amit Kaithwas
                 <svg
                   className="absolute -bottom-2 left-0 w-full h-3 text-primary opacity-50"
                   viewBox="0 0 100 10"
@@ -75,19 +75,23 @@ export function Hero() {
               </span>
               <div className="h-px w-12 bg-border"></div>
               <a
-                href="https://github.com"
+                href="https://github.com/kaithwasjr"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-200"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/kaithwasjr"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-200"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:kaithwasjr@gmail.com"
                 className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-200"
               >
                 <Mail className="w-5 h-5" />
